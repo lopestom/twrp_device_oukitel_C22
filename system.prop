@@ -1,0 +1,25 @@
+# from device
+ro.sf.lcd_density=320
+persist.sys.isUsbOtgEnabled=true
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+ro.boot.hardware=mt6761
+ro.hardware=mt6761
+ro.vendor.mediatek.platform=MT6761
+ro.vendor.mtk_f2fs_enable=0
+ro.hardware.egl=meow
+ro.board.platform=mt6761
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.vendor.mtk_microtrust_tee_support=1
+# Others
+ro.treble.enabled=true
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=mtp,adb
+persist.service.adb.enable=1
+persist.service.debuggable=1
+vendor.gatekeeper.disable_spu=true
+ro.boot.dynamic_partitions=true
+fbe.metadata.wrappedkey=true
+sys.usb.ffs.aio_compat=true
